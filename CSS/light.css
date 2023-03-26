@@ -1,0 +1,12 @@
+.light{
+    transition: 1s;
+}
+.light *{
+    --black: #e3f2fd;
+    --blue: aquamarine;
+    --white: black;
+    --orange: #FAC422;
+}
+.light header{
+    background-color: #e3f2fd;
+}

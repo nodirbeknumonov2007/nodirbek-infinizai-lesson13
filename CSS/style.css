@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url(./general.css);
+@import url(./navbar.css);
+@import url(./home.css);
+@import url(./section3.css);
+@import url(./section2.css);
+@import url(./light.css);
+
+
+:root{
+    --black: black;
+    --blue: #57B8FF;
+    --white: white;
+    --orange: #FAC422;
+}

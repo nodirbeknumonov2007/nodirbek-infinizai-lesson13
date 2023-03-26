@@ -1,0 +1,36 @@
+#sec-2{
+    display: flex;
+    padding: 85px 60px;
+    background-color: var(--black);
+}
+.sec2-p{
+    color: var(--white);
+    font-size: 18px;
+    margin-top: 38px;
+    max-width: 650px;
+}
+iframe{
+    border-color: var(--white);
+    border-radius: 30px;
+}
+
+@media (max-width:1000px){
+    #sec-2{
+        flex-direction: column;
+    }
+    #sec-2 > .home-content h1,
+    #sec-2 > .home-content p
+    {
+        max-width: none;
+        text-align: center;
+    }
+    iframe{
+        width: 100%;
+    }
+
+}
+@media (max-width:600px){
+    iframe{
+        height: 200px;
+    }
+}
